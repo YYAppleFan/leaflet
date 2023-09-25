@@ -5740,8 +5740,7 @@
   	return new Scale(options);
   };
 
-  var ukrainianFlag = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" class="leaflet-attribution-flag"><path fill="#ffffff" d="M0 0h12v3H0z"/><path fill="#0039a6" d="M0 3h12v3H0z"/><path fill="#d52b1e" d="M0 6h12v3H0z"/></svg>';
-
+  var nationalFlag = '🇷🇺🇺🇦🇧🇾🇬🇪🇰🇿🇺🇿🇰🇬🇹🇯🇹🇲🇦🇲🇦🇿🇲🇩🇪🇪🇱🇻🇱🇹';
 
   /*
    * @class Control.Attribution
@@ -5759,7 +5758,7 @@
 
   		// @option prefix: String|false = 'Leaflet'
   		// The HTML text shown before the attributions. Pass `false` to disable.
-  		prefix: '<a href="https://leafletjs.com" title="A JavaScript library for interactive maps">' + (Browser.inlineSvg ? ukrainianFlag + ' ' : '') + 'Leaflet</a>'
+  		prefix: '<a href="https://leafletjs.com" title="A JavaScript library for interactive maps">' + (Browser.inlineSvg ? nationalFlag + ' ' : '') + 'Leaflet</a>'
   	},
 
   	initialize: function (options) {

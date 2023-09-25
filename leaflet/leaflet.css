@@ -428,7 +428,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-control-attribution a:focus {
 	text-decoration: underline;
 	}
-.leaflet-attribution-flag {
+.nationalFlag {
 	display: inline !important;
 	vertical-align: baseline !important;
 	width: 1em;
