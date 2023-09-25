@@ -5734,8 +5734,7 @@ var scale = function (options) {
 	return new Scale(options);
 };
 
-var ukrainianFlag = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" class="leaflet-attribution-flag"><path fill="#4C7BE1" d="M0 0h12v4H0z"/><path fill="#FFD500" d="M0 4h12v3H0z"/><path fill="#E0BC00" d="M0 7h12v1H0z"/></svg>';
-
+var ukrainianFlag = '<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" class="leaflet-attribution-flag"><path fill="#ffffff" d="M0 0h12v3H0z"/><path fill="#0039a6" d="M0 3h12v3H0z"/><path fill="#d52b1e" d="M0 6h12v3H0z"/></svg>';
 
 /*
  * @class Control.Attribution
