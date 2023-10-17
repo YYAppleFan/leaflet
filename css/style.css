@@ -11,7 +11,7 @@ body,html {
 
 body {
 	display: grid;
-	grid-template-rows: 80px 1fr 50px;
+	grid-template-rows: 60px 1fr 45px;
 	grid-template-columns: 1fr;
 	grid-template-areas: 
 	"header header"
@@ -34,7 +34,7 @@ body {
 
 .footer {
 	grid-area: footer;
-	padding:10px;
+	padding:6px;
 	background-color: rgb(0, 162, 255);
 	color:white
 }
